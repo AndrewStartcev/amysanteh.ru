@@ -1,0 +1,22 @@
+.btn {
+	padding: 20px 0;
+	width: 220px;
+	color: #ffffff;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	background: transparent;
+	border: 3px solid #db541f;
+	box-shadow: inset 13em 0 #db541f;
+	transition: box-shadow 1s ease, color 1s ease;
+	&:hover {
+		box-shadow: inset 1em 0 rgba(0, 0, 0, 0);
+		background: transparent;
+	}
+	&-o {
+		box-shadow: inset 1em 0 rgba(0, 0, 0, 0);
+		&:hover {
+			box-shadow: inset -13em 0 #db541f;
+		}
+	}
+}
